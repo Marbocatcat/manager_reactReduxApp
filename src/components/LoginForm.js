@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Text, StyleSheet } from 'react-native';
 import { connect } from 'react-redux';
-import { emailChanged, passwordChanged, loginUser, loginUserFail, loginUserSuccess } from '../actions';
+import { emailChanged, passwordChanged, loginUser, loginUserFail } from '../actions';
 import { Card, CardSection, Input, Button, Spinner } from './common';
 
 class LoginForm extends Component {
